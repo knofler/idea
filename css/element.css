@@ -1,0 +1,42 @@
+button
+{
+	clear: both;
+	display: block;
+	width:10em;
+	height: 2em;
+	border-radius: 5px;
+}
+
+.select_mode{
+	
+	background-color: #baadad;
+	pointer-events: none;
+	cursor: default;
+}
+
+.not_select{
+	
+	background-color:inherit;
+}
+
+li{
+	
+	display:block;
+}
+
+ul ul{
+	/*background: red;*/
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+
+.sec_btn{
+	background: #d1d1d1;
+}
+
+.sec_btn:hover{
+	background: #949c90;
+	cursor: pointer;
+}
+
